@@ -1,0 +1,78 @@
+{
+  "scene": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it__episode_038__step_0420",
+  "bddl": "/root/autodl-tmp/data/LIBERO_Recovery_Assets/small/scenes/selected_bddl_scenes_10/KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it/episode_038/step_0420.bddl",
+  "task": "put the yellow and white mug in the microwave and close it",
+  "trial": 0,
+  "gripper_init": "open",
+  "success": false,
+  "steps": 520,
+  "wall_sec": 71.3,
+  "subtask_timeline": [
+    {
+      "step": 0,
+      "t_sim": 0.0,
+      "t_wall": 0.12,
+      "subtask": "reach for the yellow and white mug"
+    },
+    {
+      "step": 8,
+      "t_sim": 0.4,
+      "t_wall": 1.09,
+      "subtask": "grasp the yellow and white mug"
+    },
+    {
+      "step": 16,
+      "t_sim": 0.8,
+      "t_wall": 1.94,
+      "subtask": "move the yellow and white mug to the microwave"
+    },
+    {
+      "step": 120,
+      "t_sim": 6.0,
+      "t_wall": 16.25,
+      "subtask": "push the microwave door closed"
+    },
+    {
+      "step": 176,
+      "t_sim": 8.8,
+      "t_wall": 22.48,
+      "subtask": "move the yellow and white mug to the microwave"
+    },
+    {
+      "step": 232,
+      "t_sim": 11.6,
+      "t_wall": 30.33,
+      "subtask": "push the microwave door closed"
+    },
+    {
+      "step": 256,
+      "t_sim": 12.8,
+      "t_wall": 33.27,
+      "subtask": "move the yellow and white mug to the microwave"
+    },
+    {
+      "step": 320,
+      "t_sim": 16.0,
+      "t_wall": 42.52,
+      "subtask": "release the yellow and white mug"
+    },
+    {
+      "step": 328,
+      "t_sim": 16.4,
+      "t_wall": 43.56,
+      "subtask": "push the microwave door closed"
+    },
+    {
+      "step": 360,
+      "t_sim": 18.0,
+      "t_wall": 47.52,
+      "subtask": "move the yellow and white mug to the microwave"
+    },
+    {
+      "step": 392,
+      "t_sim": 19.6,
+      "t_wall": 52.54,
+      "subtask": "push the microwave door closed"
+    }
+  ]
+}

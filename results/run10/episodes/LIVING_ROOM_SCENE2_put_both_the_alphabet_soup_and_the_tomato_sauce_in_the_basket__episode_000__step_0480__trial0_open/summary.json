@@ -1,0 +1,60 @@
+{
+  "scene": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket__episode_000__step_0480",
+  "bddl": "/root/autodl-tmp/data/LIBERO_Recovery_Assets/small/scenes/selected_bddl_scenes_10/LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket/episode_000/step_0480.bddl",
+  "task": "put both the alphabet soup and the tomato sauce in the basket",
+  "trial": 0,
+  "gripper_init": "open",
+  "success": true,
+  "steps": 292,
+  "wall_sec": 35.9,
+  "subtask_timeline": [
+    {
+      "step": 0,
+      "t_sim": 0.0,
+      "t_wall": 0.13,
+      "subtask": "reach for the alphabet soup"
+    },
+    {
+      "step": 80,
+      "t_sim": 4.0,
+      "t_wall": 9.08,
+      "subtask": "grasp the alphabet soup"
+    },
+    {
+      "step": 88,
+      "t_sim": 4.4,
+      "t_wall": 10.18,
+      "subtask": "move the alphabet soup to the basket"
+    },
+    {
+      "step": 160,
+      "t_sim": 8.0,
+      "t_wall": 19.09,
+      "subtask": "release the alphabet soup"
+    },
+    {
+      "step": 168,
+      "t_sim": 8.4,
+      "t_wall": 20.11,
+      "subtask": "reach for the tomato sauce"
+    },
+    {
+      "step": 232,
+      "t_sim": 11.6,
+      "t_wall": 27.54,
+      "subtask": "grasp the tomato sauce"
+    },
+    {
+      "step": 240,
+      "t_sim": 12.0,
+      "t_wall": 28.55,
+      "subtask": "move the tomato sauce to the basket"
+    },
+    {
+      "step": 288,
+      "t_sim": 14.4,
+      "t_wall": 34.75,
+      "subtask": "release the tomato sauce"
+    }
+  ]
+}

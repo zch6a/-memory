@@ -1,0 +1,48 @@
+{
+  "scene": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate__episode_024__step_0500",
+  "bddl": "/root/autodl-tmp/data/LIBERO_Recovery_Assets/small/scenes/selected_bddl_scenes_10/LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate/episode_024/step_0500.bddl",
+  "task": "put the white mug on the left plate and put the yellow and white mug on the right plate",
+  "trial": 0,
+  "gripper_init": "open",
+  "success": false,
+  "steps": 520,
+  "wall_sec": 68.7,
+  "subtask_timeline": [
+    {
+      "step": 0,
+      "t_sim": 0.0,
+      "t_wall": 0.14,
+      "subtask": "reach for the white mug"
+    },
+    {
+      "step": 232,
+      "t_sim": 11.6,
+      "t_wall": 26.95,
+      "subtask": "reach for the yellow and white mug"
+    },
+    {
+      "step": 240,
+      "t_sim": 12.0,
+      "t_wall": 28.09,
+      "subtask": "reach for the white mug"
+    },
+    {
+      "step": 304,
+      "t_sim": 15.2,
+      "t_wall": 36.31,
+      "subtask": "reach for the yellow and white mug"
+    },
+    {
+      "step": 352,
+      "t_sim": 17.6,
+      "t_wall": 43.18,
+      "subtask": "reach for the white mug"
+    },
+    {
+      "step": 360,
+      "t_sim": 18.0,
+      "t_wall": 44.27,
+      "subtask": "reach for the yellow and white mug"
+    }
+  ]
+}

@@ -1,0 +1,249 @@
+[eval] 10 task(s), episodes_per_task<=1 (frozen benchmark init states; success = env.check_success()).
+[eval] recording up to 1 success + 1 failure video(s)/task under /root/autodl-tmp/code/SimpleMemVLA/logs/libero_sim/orig_libero10_1ep/videos/<suite>/ ; results JSON -> /root/autodl-tmp/code/SimpleMemVLA/logs/libero_sim/orig_libero10_1ep/videos/results.json
+Current Triton version 3.0.0 is below the recommended 3.2.0 version. Errors may occur and these issues will not be fixed. Please consider upgrading Triton.
+Current Python version 3.10 is below the recommended 3.11 version. It is recommended to upgrade to Python 3.11 or higher for the best experience.
+[policy] note: checkpoint saved with transformers==5.13.1, env runs 5.11.0 — this pair was verified bit-identical on the closed-loop path.
+[transformers] You are using a model of type `simplememvla` to instantiate a model of type ``. This may be expected if you are loading a checkpoint that shares a subset of the architecture (e.g., loading a `sam2_video` checkpoint into `Sam2Model`), but is otherwise not supported and can yield errors. Please verify that the checkpoint is compatible with the model you are instantiating.
+[eval] action_space=osc (action_dim=7) execute_horizon=8/16
+[robosuite WARNING] No private macro file found! (__init__.py:7)
+[robosuite WARNING] It is recommended to use a private macro file (__init__.py:8)
+[robosuite WARNING] To setup, run: python /root/autodl-tmp/envs/smv/lib/python3.10/site-packages/robosuite/scripts/setup_macros.py (__init__.py:9)
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+/root/autodl-tmp/envs/smv/lib/python3.10/site-packages/transformers/processing_utils.py:928: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+  tokenizer_input = np.array(tokenizer_input)
+/root/autodl-tmp/envs/smv/lib/python3.10/site-packages/transformers/processing_utils.py:928: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+  tokenizer_input = np.array(tokenizer_input)
+/root/autodl-tmp/envs/smv/lib/python3.10/site-packages/transformers/processing_utils.py:928: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+  tokenizer_input = np.array(tokenizer_input)
+/root/autodl-tmp/envs/smv/lib/python3.10/site-packages/transformers/processing_utils.py:928: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+  tokenizer_input = np.array(tokenizer_input)
+/root/autodl-tmp/envs/smv/lib/python3.10/site-packages/transformers/processing_utils.py:928: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+  tokenizer_input = np.array(tokenizer_input)
+/root/autodl-tmp/envs/smv/lib/python3.10/site-packages/transformers/processing_utils.py:928: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+  tokenizer_input = np.array(tokenizer_input)
+/root/autodl-tmp/envs/smv/lib/python3.10/site-packages/transformers/processing_utils.py:928: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+  tokenizer_input = np.array(tokenizer_input)
+/root/autodl-tmp/envs/smv/lib/python3.10/site-packages/transformers/processing_utils.py:928: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+  tokenizer_input = np.array(tokenizer_input)
+/root/autodl-tmp/envs/smv/lib/python3.10/site-packages/transformers/processing_utils.py:928: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+  tokenizer_input = np.array(tokenizer_input)
+/root/autodl-tmp/envs/smv/lib/python3.10/site-packages/transformers/processing_utils.py:928: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+  tokenizer_input = np.array(tokenizer_input)
+/root/autodl-tmp/envs/smv/lib/python3.10/site-packages/transformers/processing_utils.py:928: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+  tokenizer_input = np.array(tokenizer_input)
+/root/autodl-tmp/envs/smv/lib/python3.10/site-packages/transformers/processing_utils.py:928: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+  tokenizer_input = np.array(tokenizer_input)
+/root/autodl-tmp/envs/smv/lib/python3.10/site-packages/transformers/processing_utils.py:928: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+  tokenizer_input = np.array(tokenizer_input)
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[Warning]: datasets path /root/autodl-tmp/code/LIBERO-Recovery/LIBERO/libero/libero/../datasets does not exist!
+[Warning]: datasets path /root/autodl-tmp/code/LIBERO-Recovery/LIBERO/libero/libero/../datasets does not exist!
+[eval] saved succ video: /root/autodl-tmp/code/SimpleMemVLA/logs/libero_sim/orig_libero10_1ep/videos/libero_10/libero_10_t0__ep0__succ.mp4 (258 frames)
+[eval] libero_10/0: success_rate=1.000 (n=1)
+/root/autodl-tmp/envs/smv/lib/python3.10/site-packages/transformers/processing_utils.py:928: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+  tokenizer_input = np.array(tokenizer_input)
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[Warning]: datasets path /root/autodl-tmp/code/LIBERO-Recovery/LIBERO/libero/libero/../datasets does not exist!
+[Warning]: datasets path /root/autodl-tmp/code/LIBERO-Recovery/LIBERO/libero/libero/../datasets does not exist!
+[eval] saved succ video: /root/autodl-tmp/code/SimpleMemVLA/logs/libero_sim/orig_libero10_1ep/videos/libero_10/libero_10_t1__ep0__succ.mp4 (253 frames)
+[eval] libero_10/1: success_rate=1.000 (n=1)
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[Warning]: datasets path /root/autodl-tmp/code/LIBERO-Recovery/LIBERO/libero/libero/../datasets does not exist!
+[Warning]: datasets path /root/autodl-tmp/code/LIBERO-Recovery/LIBERO/libero/libero/../datasets does not exist!
+[eval] saved succ video: /root/autodl-tmp/code/SimpleMemVLA/logs/libero_sim/orig_libero10_1ep/videos/libero_10/libero_10_t2__ep0__succ.mp4 (240 frames)
+[eval] libero_10/2: success_rate=1.000 (n=1)
+/root/autodl-tmp/envs/smv/lib/python3.10/site-packages/transformers/processing_utils.py:928: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+  tokenizer_input = np.array(tokenizer_input)
+/root/autodl-tmp/envs/smv/lib/python3.10/site-packages/transformers/processing_utils.py:928: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+  tokenizer_input = np.array(tokenizer_input)
+/root/autodl-tmp/envs/smv/lib/python3.10/site-packages/transformers/processing_utils.py:928: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+  tokenizer_input = np.array(tokenizer_input)
+/root/autodl-tmp/envs/smv/lib/python3.10/site-packages/transformers/processing_utils.py:928: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+  tokenizer_input = np.array(tokenizer_input)
+/root/autodl-tmp/envs/smv/lib/python3.10/site-packages/transformers/processing_utils.py:928: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+  tokenizer_input = np.array(tokenizer_input)
+/root/autodl-tmp/envs/smv/lib/python3.10/site-packages/transformers/processing_utils.py:928: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+  tokenizer_input = np.array(tokenizer_input)
+/root/autodl-tmp/envs/smv/lib/python3.10/site-packages/transformers/processing_utils.py:928: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+  tokenizer_input = np.array(tokenizer_input)
+/root/autodl-tmp/envs/smv/lib/python3.10/site-packages/transformers/processing_utils.py:928: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+  tokenizer_input = np.array(tokenizer_input)
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[Warning]: datasets path /root/autodl-tmp/code/LIBERO-Recovery/LIBERO/libero/libero/../datasets does not exist!
+[Warning]: datasets path /root/autodl-tmp/code/LIBERO-Recovery/LIBERO/libero/libero/../datasets does not exist!
+[eval] saved succ video: /root/autodl-tmp/code/SimpleMemVLA/logs/libero_sim/orig_libero10_1ep/videos/libero_10/libero_10_t3__ep0__succ.mp4 (243 frames)
+[eval] libero_10/3: success_rate=1.000 (n=1)
+/root/autodl-tmp/envs/smv/lib/python3.10/site-packages/transformers/processing_utils.py:928: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+  tokenizer_input = np.array(tokenizer_input)
+/root/autodl-tmp/envs/smv/lib/python3.10/site-packages/transformers/processing_utils.py:928: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+  tokenizer_input = np.array(tokenizer_input)
+/root/autodl-tmp/envs/smv/lib/python3.10/site-packages/transformers/processing_utils.py:928: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+  tokenizer_input = np.array(tokenizer_input)
+/root/autodl-tmp/envs/smv/lib/python3.10/site-packages/transformers/processing_utils.py:928: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+  tokenizer_input = np.array(tokenizer_input)
+/root/autodl-tmp/envs/smv/lib/python3.10/site-packages/transformers/processing_utils.py:928: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+  tokenizer_input = np.array(tokenizer_input)
+/root/autodl-tmp/envs/smv/lib/python3.10/site-packages/transformers/processing_utils.py:928: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+  tokenizer_input = np.array(tokenizer_input)
+/root/autodl-tmp/envs/smv/lib/python3.10/site-packages/transformers/processing_utils.py:928: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+  tokenizer_input = np.array(tokenizer_input)
+/root/autodl-tmp/envs/smv/lib/python3.10/site-packages/transformers/processing_utils.py:928: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+  tokenizer_input = np.array(tokenizer_input)
+/root/autodl-tmp/envs/smv/lib/python3.10/site-packages/transformers/processing_utils.py:928: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+  tokenizer_input = np.array(tokenizer_input)
+/root/autodl-tmp/envs/smv/lib/python3.10/site-packages/transformers/processing_utils.py:928: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+  tokenizer_input = np.array(tokenizer_input)
+/root/autodl-tmp/envs/smv/lib/python3.10/site-packages/transformers/processing_utils.py:928: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+  tokenizer_input = np.array(tokenizer_input)
+/root/autodl-tmp/envs/smv/lib/python3.10/site-packages/transformers/processing_utils.py:928: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+  tokenizer_input = np.array(tokenizer_input)
+/root/autodl-tmp/envs/smv/lib/python3.10/site-packages/transformers/processing_utils.py:928: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+  tokenizer_input = np.array(tokenizer_input)
+/root/autodl-tmp/envs/smv/lib/python3.10/site-packages/transformers/processing_utils.py:928: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+  tokenizer_input = np.array(tokenizer_input)
+/root/autodl-tmp/envs/smv/lib/python3.10/site-packages/transformers/processing_utils.py:928: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+  tokenizer_input = np.array(tokenizer_input)
+/root/autodl-tmp/envs/smv/lib/python3.10/site-packages/transformers/processing_utils.py:928: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+  tokenizer_input = np.array(tokenizer_input)
+/root/autodl-tmp/envs/smv/lib/python3.10/site-packages/transformers/processing_utils.py:928: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+  tokenizer_input = np.array(tokenizer_input)
+/root/autodl-tmp/envs/smv/lib/python3.10/site-packages/transformers/processing_utils.py:928: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+  tokenizer_input = np.array(tokenizer_input)
+/root/autodl-tmp/envs/smv/lib/python3.10/site-packages/transformers/processing_utils.py:928: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+  tokenizer_input = np.array(tokenizer_input)
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[Warning]: datasets path /root/autodl-tmp/code/LIBERO-Recovery/LIBERO/libero/libero/../datasets does not exist!
+[Warning]: datasets path /root/autodl-tmp/code/LIBERO-Recovery/LIBERO/libero/libero/../datasets does not exist!
+[eval] saved fail video: /root/autodl-tmp/code/SimpleMemVLA/logs/libero_sim/orig_libero10_1ep/videos/libero_10/libero_10_t4__ep0__fail.mp4 (521 frames)
+[eval] libero_10/4: success_rate=0.000 (n=1)
+/root/autodl-tmp/envs/smv/lib/python3.10/site-packages/transformers/processing_utils.py:928: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+  tokenizer_input = np.array(tokenizer_input)
+/root/autodl-tmp/envs/smv/lib/python3.10/site-packages/transformers/processing_utils.py:928: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+  tokenizer_input = np.array(tokenizer_input)
+/root/autodl-tmp/envs/smv/lib/python3.10/site-packages/transformers/processing_utils.py:928: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+  tokenizer_input = np.array(tokenizer_input)
+/root/autodl-tmp/envs/smv/lib/python3.10/site-packages/transformers/processing_utils.py:928: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+  tokenizer_input = np.array(tokenizer_input)
+/root/autodl-tmp/envs/smv/lib/python3.10/site-packages/transformers/processing_utils.py:928: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+  tokenizer_input = np.array(tokenizer_input)
+/root/autodl-tmp/envs/smv/lib/python3.10/site-packages/transformers/processing_utils.py:928: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+  tokenizer_input = np.array(tokenizer_input)
+/root/autodl-tmp/envs/smv/lib/python3.10/site-packages/transformers/processing_utils.py:928: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+  tokenizer_input = np.array(tokenizer_input)
+/root/autodl-tmp/envs/smv/lib/python3.10/site-packages/transformers/processing_utils.py:928: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+  tokenizer_input = np.array(tokenizer_input)
+/root/autodl-tmp/envs/smv/lib/python3.10/site-packages/transformers/processing_utils.py:928: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+  tokenizer_input = np.array(tokenizer_input)
+/root/autodl-tmp/envs/smv/lib/python3.10/site-packages/transformers/processing_utils.py:928: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+  tokenizer_input = np.array(tokenizer_input)
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[Warning]: datasets path /root/autodl-tmp/code/LIBERO-Recovery/LIBERO/libero/libero/../datasets does not exist!
+[Warning]: datasets path /root/autodl-tmp/code/LIBERO-Recovery/LIBERO/libero/libero/../datasets does not exist!
+[eval] saved succ video: /root/autodl-tmp/code/SimpleMemVLA/logs/libero_sim/orig_libero10_1ep/videos/libero_10/libero_10_t5__ep0__succ.mp4 (289 frames)
+[eval] libero_10/5: success_rate=1.000 (n=1)
+/root/autodl-tmp/envs/smv/lib/python3.10/site-packages/transformers/processing_utils.py:928: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+  tokenizer_input = np.array(tokenizer_input)
+/root/autodl-tmp/envs/smv/lib/python3.10/site-packages/transformers/processing_utils.py:928: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+  tokenizer_input = np.array(tokenizer_input)
+/root/autodl-tmp/envs/smv/lib/python3.10/site-packages/transformers/processing_utils.py:928: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+  tokenizer_input = np.array(tokenizer_input)
+/root/autodl-tmp/envs/smv/lib/python3.10/site-packages/transformers/processing_utils.py:928: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+  tokenizer_input = np.array(tokenizer_input)
+/root/autodl-tmp/envs/smv/lib/python3.10/site-packages/transformers/processing_utils.py:928: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+  tokenizer_input = np.array(tokenizer_input)
+/root/autodl-tmp/envs/smv/lib/python3.10/site-packages/transformers/processing_utils.py:928: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+  tokenizer_input = np.array(tokenizer_input)
+/root/autodl-tmp/envs/smv/lib/python3.10/site-packages/transformers/processing_utils.py:928: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+  tokenizer_input = np.array(tokenizer_input)
+/root/autodl-tmp/envs/smv/lib/python3.10/site-packages/transformers/processing_utils.py:928: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+  tokenizer_input = np.array(tokenizer_input)
+/root/autodl-tmp/envs/smv/lib/python3.10/site-packages/transformers/processing_utils.py:928: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+  tokenizer_input = np.array(tokenizer_input)
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[Warning]: datasets path /root/autodl-tmp/code/LIBERO-Recovery/LIBERO/libero/libero/../datasets does not exist!
+[Warning]: datasets path /root/autodl-tmp/code/LIBERO-Recovery/LIBERO/libero/libero/../datasets does not exist!
+[eval] saved succ video: /root/autodl-tmp/code/SimpleMemVLA/logs/libero_sim/orig_libero10_1ep/videos/libero_10/libero_10_t6__ep0__succ.mp4 (233 frames)
+[eval] libero_10/6: success_rate=1.000 (n=1)
+/root/autodl-tmp/envs/smv/lib/python3.10/site-packages/transformers/processing_utils.py:928: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+  tokenizer_input = np.array(tokenizer_input)
+/root/autodl-tmp/envs/smv/lib/python3.10/site-packages/transformers/processing_utils.py:928: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+  tokenizer_input = np.array(tokenizer_input)
+/root/autodl-tmp/envs/smv/lib/python3.10/site-packages/transformers/processing_utils.py:928: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+  tokenizer_input = np.array(tokenizer_input)
+/root/autodl-tmp/envs/smv/lib/python3.10/site-packages/transformers/processing_utils.py:928: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+  tokenizer_input = np.array(tokenizer_input)
+/root/autodl-tmp/envs/smv/lib/python3.10/site-packages/transformers/processing_utils.py:928: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+  tokenizer_input = np.array(tokenizer_input)
+/root/autodl-tmp/envs/smv/lib/python3.10/site-packages/transformers/processing_utils.py:928: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+  tokenizer_input = np.array(tokenizer_input)
+/root/autodl-tmp/envs/smv/lib/python3.10/site-packages/transformers/processing_utils.py:928: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+  tokenizer_input = np.array(tokenizer_input)
+/root/autodl-tmp/envs/smv/lib/python3.10/site-packages/transformers/processing_utils.py:928: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+  tokenizer_input = np.array(tokenizer_input)
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[Warning]: datasets path /root/autodl-tmp/code/LIBERO-Recovery/LIBERO/libero/libero/../datasets does not exist!
+[Warning]: datasets path /root/autodl-tmp/code/LIBERO-Recovery/LIBERO/libero/libero/../datasets does not exist!
+[eval] saved succ video: /root/autodl-tmp/code/SimpleMemVLA/logs/libero_sim/orig_libero10_1ep/videos/libero_10/libero_10_t7__ep0__succ.mp4 (234 frames)
+[eval] libero_10/7: success_rate=1.000 (n=1)
+/root/autodl-tmp/envs/smv/lib/python3.10/site-packages/transformers/processing_utils.py:928: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+  tokenizer_input = np.array(tokenizer_input)
+/root/autodl-tmp/envs/smv/lib/python3.10/site-packages/transformers/processing_utils.py:928: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+  tokenizer_input = np.array(tokenizer_input)
+/root/autodl-tmp/envs/smv/lib/python3.10/site-packages/transformers/processing_utils.py:928: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+  tokenizer_input = np.array(tokenizer_input)
+/root/autodl-tmp/envs/smv/lib/python3.10/site-packages/transformers/processing_utils.py:928: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+  tokenizer_input = np.array(tokenizer_input)
+/root/autodl-tmp/envs/smv/lib/python3.10/site-packages/transformers/processing_utils.py:928: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+  tokenizer_input = np.array(tokenizer_input)
+/root/autodl-tmp/envs/smv/lib/python3.10/site-packages/transformers/processing_utils.py:928: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+  tokenizer_input = np.array(tokenizer_input)
+/root/autodl-tmp/envs/smv/lib/python3.10/site-packages/transformers/processing_utils.py:928: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+  tokenizer_input = np.array(tokenizer_input)
+/root/autodl-tmp/envs/smv/lib/python3.10/site-packages/transformers/processing_utils.py:928: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+  tokenizer_input = np.array(tokenizer_input)
+/root/autodl-tmp/envs/smv/lib/python3.10/site-packages/transformers/processing_utils.py:928: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+  tokenizer_input = np.array(tokenizer_input)
+/root/autodl-tmp/envs/smv/lib/python3.10/site-packages/transformers/processing_utils.py:928: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+  tokenizer_input = np.array(tokenizer_input)
+/root/autodl-tmp/envs/smv/lib/python3.10/site-packages/transformers/processing_utils.py:928: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+  tokenizer_input = np.array(tokenizer_input)
+/root/autodl-tmp/envs/smv/lib/python3.10/site-packages/transformers/processing_utils.py:928: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+  tokenizer_input = np.array(tokenizer_input)
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[Warning]: datasets path /root/autodl-tmp/code/LIBERO-Recovery/LIBERO/libero/libero/../datasets does not exist!
+[Warning]: datasets path /root/autodl-tmp/code/LIBERO-Recovery/LIBERO/libero/libero/../datasets does not exist!
+[eval] saved succ video: /root/autodl-tmp/code/SimpleMemVLA/logs/libero_sim/orig_libero10_1ep/videos/libero_10/libero_10_t8__ep0__succ.mp4 (358 frames)
+[eval] libero_10/8: success_rate=1.000 (n=1)
+/root/autodl-tmp/envs/smv/lib/python3.10/site-packages/transformers/processing_utils.py:928: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+  tokenizer_input = np.array(tokenizer_input)
+/root/autodl-tmp/envs/smv/lib/python3.10/site-packages/transformers/processing_utils.py:928: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+  tokenizer_input = np.array(tokenizer_input)
+/root/autodl-tmp/envs/smv/lib/python3.10/site-packages/transformers/processing_utils.py:928: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+  tokenizer_input = np.array(tokenizer_input)
+/root/autodl-tmp/envs/smv/lib/python3.10/site-packages/transformers/processing_utils.py:928: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+  tokenizer_input = np.array(tokenizer_input)
+/root/autodl-tmp/envs/smv/lib/python3.10/site-packages/transformers/processing_utils.py:928: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+  tokenizer_input = np.array(tokenizer_input)
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[Warning]: datasets path /root/autodl-tmp/code/LIBERO-Recovery/LIBERO/libero/libero/../datasets does not exist!
+[Warning]: datasets path /root/autodl-tmp/code/LIBERO-Recovery/LIBERO/libero/libero/../datasets does not exist!
+[eval] saved fail video: /root/autodl-tmp/code/SimpleMemVLA/logs/libero_sim/orig_libero10_1ep/videos/libero_10/libero_10_t9__ep0__fail.mp4 (521 frames)
+[eval] libero_10/9: success_rate=0.000 (n=1)
+
+==== LIBERO closed-loop success rates ====
+  libero_10/0              100.0% (n=1)
+  libero_10/1              100.0% (n=1)
+  libero_10/2              100.0% (n=1)
+  libero_10/3              100.0% (n=1)
+  libero_10/4                0.0% (n=1)
+  libero_10/5              100.0% (n=1)
+  libero_10/6              100.0% (n=1)
+  libero_10/7              100.0% (n=1)
+  libero_10/8              100.0% (n=1)
+  libero_10/9                0.0% (n=1)
+  ---- per-suite (macro over valid tasks) ----
+  libero_10                 80.0% (10 tasks)
+  OVERALL (macro avg)       80.0%
+[eval] wrote results JSON -> /root/autodl-tmp/code/SimpleMemVLA/logs/libero_sim/orig_libero10_1ep/videos/results.json

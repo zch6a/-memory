@@ -1,0 +1,20 @@
+{
+  "checkpoint": "/root/autodl-tmp/ckpt/simplememvla_libero",
+  "scene_dir": "/root/autodl-tmp/data/LIBERO_Recovery_Assets/small/scenes/selected_bddl_scenes_10",
+  "scene_list": "",
+  "per_task": 1,
+  "num_scenes": 10,
+  "num_open_trials": 1,
+  "num_close_trials": 0,
+  "obj_noise_xy": 0.02,
+  "gripper_settle_steps": 20,
+  "max_steps": 520,
+  "execute_horizon": 8,
+  "num_denoising_steps": 10,
+  "eval_temperature": 1.0,
+  "max_reasoning_tokens": 256,
+  "compute_dtype": "bfloat16",
+  "attn_implementation": "flash_attention_2",
+  "seed": 7,
+  "out_dir": "/root/autodl-tmp/results/run10"
+}

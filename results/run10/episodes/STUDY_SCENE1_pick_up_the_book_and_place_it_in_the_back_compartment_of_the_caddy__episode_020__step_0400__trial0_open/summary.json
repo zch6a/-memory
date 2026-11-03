@@ -1,0 +1,60 @@
+{
+  "scene": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy__episode_020__step_0400",
+  "bddl": "/root/autodl-tmp/data/LIBERO_Recovery_Assets/small/scenes/selected_bddl_scenes_10/STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy/episode_020/step_0400.bddl",
+  "task": "pick up the book and place it in the back compartment of the caddy",
+  "trial": 0,
+  "gripper_init": "open",
+  "success": false,
+  "steps": 520,
+  "wall_sec": 65.7,
+  "subtask_timeline": [
+    {
+      "step": 0,
+      "t_sim": 0.0,
+      "t_wall": 0.13,
+      "subtask": "reach for the book"
+    },
+    {
+      "step": 88,
+      "t_sim": 4.4,
+      "t_wall": 8.88,
+      "subtask": "grasp the book"
+    },
+    {
+      "step": 104,
+      "t_sim": 5.2,
+      "t_wall": 10.29,
+      "subtask": "move the book to the back compartment of the caddy"
+    },
+    {
+      "step": 288,
+      "t_sim": 14.4,
+      "t_wall": 38.05,
+      "subtask": "release the book"
+    },
+    {
+      "step": 344,
+      "t_sim": 17.2,
+      "t_wall": 43.91,
+      "subtask": "reach for the book"
+    },
+    {
+      "step": 352,
+      "t_sim": 17.6,
+      "t_wall": 44.91,
+      "subtask": "release the book"
+    },
+    {
+      "step": 440,
+      "t_sim": 22.0,
+      "t_wall": 55.29,
+      "subtask": "reach for the book"
+    },
+    {
+      "step": 448,
+      "t_sim": 22.4,
+      "t_wall": 56.37,
+      "subtask": "release the book"
+    }
+  ]
+}

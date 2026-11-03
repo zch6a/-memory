@@ -1,0 +1,87 @@
+{
+  "total_episodes": 10,
+  "total_successes": 2,
+  "overall_rate": 0.2,
+  "episodes": [
+    {
+      "scene": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it__episode_034__step_0480",
+      "task": "turn on the stove and put the moka pot on it",
+      "gripper_init": "open",
+      "success": true,
+      "steps": 397,
+      "wall_sec": 173.5
+    },
+    {
+      "scene": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it__episode_036__step_0480",
+      "task": "put the black bowl in the bottom drawer of the cabinet and close it",
+      "gripper_init": "open",
+      "success": false,
+      "steps": 520,
+      "wall_sec": 139.9
+    },
+    {
+      "scene": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it__episode_038__step_0420",
+      "task": "put the yellow and white mug in the microwave and close it",
+      "gripper_init": "open",
+      "success": false,
+      "steps": 520,
+      "wall_sec": 71.3
+    },
+    {
+      "scene": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove__episode_002__step_0420",
+      "task": "put both moka pots on the stove",
+      "gripper_init": "open",
+      "success": false,
+      "steps": 520,
+      "wall_sec": 71.2
+    },
+    {
+      "scene": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket__episode_037__step_0480",
+      "task": "put both the alphabet soup and the cream cheese box in the basket",
+      "gripper_init": "open",
+      "success": false,
+      "steps": 520,
+      "wall_sec": 67.5
+    },
+    {
+      "scene": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket__episode_000__step_0480",
+      "task": "put both the alphabet soup and the tomato sauce in the basket",
+      "gripper_init": "open",
+      "success": true,
+      "steps": 292,
+      "wall_sec": 35.9
+    },
+    {
+      "scene": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket__episode_001__step_0440",
+      "task": "put both the cream cheese box and the butter in the basket",
+      "gripper_init": "open",
+      "success": false,
+      "steps": 520,
+      "wall_sec": 65.4
+    },
+    {
+      "scene": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate__episode_024__step_0500",
+      "task": "put the white mug on the left plate and put the yellow and white mug on the right plate",
+      "gripper_init": "open",
+      "success": false,
+      "steps": 520,
+      "wall_sec": 68.7
+    },
+    {
+      "scene": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate__episode_039__step_0400",
+      "task": "put the white mug on the plate and put the chocolate pudding to the right of the plate",
+      "gripper_init": "open",
+      "success": false,
+      "steps": 520,
+      "wall_sec": 65.2
+    },
+    {
+      "scene": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy__episode_020__step_0400",
+      "task": "pick up the book and place it in the back compartment of the caddy",
+      "gripper_init": "open",
+      "success": false,
+      "steps": 520,
+      "wall_sec": 65.7
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "tasks": {
+    "libero_10/0": {
+      "success_rate": 1.0,
+      "n": 1,
+      "oom": false
+    },
+    "libero_10/1": {
+      "success_rate": 1.0,
+      "n": 1,
+      "oom": false
+    },
+    "libero_10/2": {
+      "success_rate": 1.0,
+      "n": 1,
+      "oom": false
+    },
+    "libero_10/3": {
+      "success_rate": 1.0,
+      "n": 1,
+      "oom": false
+    },
+    "libero_10/4": {
+      "success_rate": 0.0,
+      "n": 1,
+      "oom": false
+    },
+    "libero_10/5": {
+      "success_rate": 1.0,
+      "n": 1,
+      "oom": false
+    },
+    "libero_10/6": {
+      "success_rate": 1.0,
+      "n": 1,
+      "oom": false
+    },
+    "libero_10/7": {
+      "success_rate": 1.0,
+      "n": 1,
+      "oom": false
+    },
+    "libero_10/8": {
+      "success_rate": 1.0,
+      "n": 1,
+      "oom": false
+    },
+    "libero_10/9": {
+      "success_rate": 0.0,
+      "n": 1,
+      "oom": false
+    }
+  },
+  "suites": {
+    "libero_10": 0.8
+  },
+  "macro_avg": 0.8,
+  "n_excluded_na": 0,
+  "truncated": false,
+  "n_workers_truncated": 0
+}

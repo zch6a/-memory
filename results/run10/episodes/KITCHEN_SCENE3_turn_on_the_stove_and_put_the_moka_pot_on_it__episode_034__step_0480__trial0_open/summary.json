@@ -1,0 +1,30 @@
+{
+  "scene": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it__episode_034__step_0480",
+  "bddl": "/root/autodl-tmp/data/LIBERO_Recovery_Assets/small/scenes/selected_bddl_scenes_10/KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it/episode_034/step_0480.bddl",
+  "task": "turn on the stove and put the moka pot on it",
+  "trial": 0,
+  "gripper_init": "open",
+  "success": true,
+  "steps": 397,
+  "wall_sec": 173.5,
+  "subtask_timeline": [
+    {
+      "step": 0,
+      "t_sim": 0.0,
+      "t_wall": 0.24,
+      "subtask": "reach for the stove knob"
+    },
+    {
+      "step": 64,
+      "t_sim": 3.2,
+      "t_wall": 50.52,
+      "subtask": "reach for the moka pot"
+    },
+    {
+      "step": 232,
+      "t_sim": 11.6,
+      "t_wall": 97.26,
+      "subtask": "move the moka pot to the stove"
+    }
+  ]
+}

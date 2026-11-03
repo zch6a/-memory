@@ -1,0 +1,48 @@
+{
+  "scene": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove__episode_002__step_0420",
+  "bddl": "/root/autodl-tmp/data/LIBERO_Recovery_Assets/small/scenes/selected_bddl_scenes_10/KITCHEN_SCENE8_put_both_moka_pots_on_the_stove/episode_002/step_0420.bddl",
+  "task": "put both moka pots on the stove",
+  "trial": 0,
+  "gripper_init": "open",
+  "success": false,
+  "steps": 520,
+  "wall_sec": 71.2,
+  "subtask_timeline": [
+    {
+      "step": 0,
+      "t_sim": 0.0,
+      "t_wall": 0.12,
+      "subtask": "reach for the first moka pot"
+    },
+    {
+      "step": 144,
+      "t_sim": 7.2,
+      "t_wall": 17.52,
+      "subtask": "reach for the second moka pot"
+    },
+    {
+      "step": 184,
+      "t_sim": 9.2,
+      "t_wall": 22.49,
+      "subtask": "reach for the first moka pot"
+    },
+    {
+      "step": 256,
+      "t_sim": 12.8,
+      "t_wall": 32.03,
+      "subtask": "reach for the second moka pot"
+    },
+    {
+      "step": 320,
+      "t_sim": 16.0,
+      "t_wall": 40.88,
+      "subtask": "reach for the first moka pot"
+    },
+    {
+      "step": 352,
+      "t_sim": 17.6,
+      "t_wall": 45.46,
+      "subtask": "reach for the second moka pot"
+    }
+  ]
+}

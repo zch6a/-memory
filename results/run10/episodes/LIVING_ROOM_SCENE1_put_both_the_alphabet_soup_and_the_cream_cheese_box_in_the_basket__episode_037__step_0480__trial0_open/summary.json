@@ -1,0 +1,60 @@
+{
+  "scene": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket__episode_037__step_0480",
+  "bddl": "/root/autodl-tmp/data/LIBERO_Recovery_Assets/small/scenes/selected_bddl_scenes_10/LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket/episode_037/step_0480.bddl",
+  "task": "put both the alphabet soup and the cream cheese box in the basket",
+  "trial": 0,
+  "gripper_init": "open",
+  "success": false,
+  "steps": 520,
+  "wall_sec": 67.5,
+  "subtask_timeline": [
+    {
+      "step": 0,
+      "t_sim": 0.0,
+      "t_wall": 0.12,
+      "subtask": "reach for the alphabet soup"
+    },
+    {
+      "step": 128,
+      "t_sim": 6.4,
+      "t_wall": 14.94,
+      "subtask": "grasp the alphabet soup"
+    },
+    {
+      "step": 136,
+      "t_sim": 6.8,
+      "t_wall": 15.82,
+      "subtask": "move the alphabet soup to the basket"
+    },
+    {
+      "step": 176,
+      "t_sim": 8.8,
+      "t_wall": 21.49,
+      "subtask": "release the alphabet soup"
+    },
+    {
+      "step": 184,
+      "t_sim": 9.2,
+      "t_wall": 22.27,
+      "subtask": "reach for the cream cheese box"
+    },
+    {
+      "step": 256,
+      "t_sim": 12.8,
+      "t_wall": 31.22,
+      "subtask": "grasp the cream cheese box"
+    },
+    {
+      "step": 264,
+      "t_sim": 13.2,
+      "t_wall": 32.11,
+      "subtask": "move the cream cheese box to the basket"
+    },
+    {
+      "step": 312,
+      "t_sim": 15.6,
+      "t_wall": 38.62,
+      "subtask": "release the cream cheese box"
+    }
+  ]
+}

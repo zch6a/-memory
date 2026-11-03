@@ -1,0 +1,48 @@
+{
+  "scene": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate__episode_039__step_0400",
+  "bddl": "/root/autodl-tmp/data/LIBERO_Recovery_Assets/small/scenes/selected_bddl_scenes_10/LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate/episode_039/step_0400.bddl",
+  "task": "put the white mug on the plate and put the chocolate pudding to the right of the plate",
+  "trial": 0,
+  "gripper_init": "open",
+  "success": false,
+  "steps": 520,
+  "wall_sec": 65.2,
+  "subtask_timeline": [
+    {
+      "step": 0,
+      "t_sim": 0.0,
+      "t_wall": 0.13,
+      "subtask": "reach for the white mug"
+    },
+    {
+      "step": 408,
+      "t_sim": 20.4,
+      "t_wall": 48.97,
+      "subtask": "reach for the chocolate pudding"
+    },
+    {
+      "step": 424,
+      "t_sim": 21.2,
+      "t_wall": 50.94,
+      "subtask": "release the white mug"
+    },
+    {
+      "step": 432,
+      "t_sim": 21.6,
+      "t_wall": 52.03,
+      "subtask": "reach for the chocolate pudding"
+    },
+    {
+      "step": 480,
+      "t_sim": 24.0,
+      "t_wall": 58.8,
+      "subtask": "release the white mug"
+    },
+    {
+      "step": 488,
+      "t_sim": 24.4,
+      "t_wall": 60.11,
+      "subtask": "reach for the chocolate pudding"
+    }
+  ]
+}
